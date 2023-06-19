@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">DiscoveryKidsAPP</string>
+    <string name="DicoveryLogo"/>
+
+    <string name="info1">
+Você sabia que os desenhos
+possuem diversos significados?
+
+Alguns até ensinam como reciclar, como o Mister Maker.
+
+Clique em "Saiba mais" e descubra!
+    </string>
+
+    <string name="btnInfo1">Saiba Mais</string>
+    <string name="btnHome"/>
+    <string name="HomeButton"/>
 </resources>

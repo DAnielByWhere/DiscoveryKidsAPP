@@ -55,21 +55,6 @@
         app:layout_constraintVertical_bias="0.727"
         tools:ignore="TextContrastCheck,UsingOnClickInXml" />
 
-    <Button
-        android:id="@+id/btnSair"
-        android:layout_width="138dp"
-        android:layout_height="54dp"
-        android:backgroundTint="#23CE6B"
-        android:text="@string/btnSair"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/btnComeço"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/btnComeço"
-        app:layout_constraintTop_toBottomOf="@+id/btnComeço"
-        app:layout_constraintVertical_bias="0.3"
-        tools:ignore="TextContrastCheck" />
-
     <ImageView
         android:id="@+id/imgWelcome"
         android:layout_width="wrap_content"

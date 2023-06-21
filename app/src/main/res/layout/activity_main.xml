@@ -32,6 +32,7 @@
         android:layout_height="70dp"
         android:autofillHints=""
         android:ems="10"
+        android:hint="@string/hintnome"
         android:inputType="text"
         android:minHeight="48dp"
         android:text="@string/edtxtNome"
@@ -41,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="LabelFor,TextContrastCheck" />
+        tools:ignore="LabelFor,TextContrastCheck,SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView"

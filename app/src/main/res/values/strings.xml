@@ -13,7 +13,8 @@
     <string name="imgPeixe"/>
     <string name="imgPeixeSig"/>
 
-    <string name="edtxtNome">Digite seu nome</string>
+    <string name="edtxtNome"/>
+    <string name="hintnome">Digite seu nome</string>
     <string name="txtWelcome">Seja Bem-Vindo</string>
     <string name="txtNome"/>
     <string name="txtInfos">Veja as informações disponiveis no App</string>

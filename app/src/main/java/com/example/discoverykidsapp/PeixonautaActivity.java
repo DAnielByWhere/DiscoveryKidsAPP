@@ -1,23 +1,26 @@
 package com.example.discoverykidsapp;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class PeixonautaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_peixonauta);
+    }
+
+    public void abrirRecicle(View view) {
+        Intent intent = new Intent(this, RecicleActivity.class);
+        startActivity(intent);
     }
 
     public void abrirSecond(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
-
     }
 }

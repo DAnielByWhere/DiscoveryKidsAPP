@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
         android:contentDescription="@string/imgbtnHome"
+        android:onClick="abrirHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.954"
@@ -49,7 +50,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/home"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
 
     <ImageButton
         android:id="@+id/imgbtnVoltar"
@@ -57,6 +58,7 @@
         android:layout_height="69dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/imgbtnVoltar"
+        android:onClick="abrirSecond"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
@@ -64,7 +66,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975"
         app:srcCompat="@drawable/seta"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
 
     <ImageView
         android:id="@+id/imageView2"

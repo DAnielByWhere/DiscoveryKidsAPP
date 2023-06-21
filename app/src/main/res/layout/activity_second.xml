@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
         android:contentDescription="@string/imgbtnRecicle"
+        android:onClick="abrirRecicle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -35,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.314"
         app:srcCompat="@drawable/recicle"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
 
     <ImageButton
         android:id="@+id/imgbtnSignificado"
@@ -45,6 +46,7 @@
         android:layout_marginEnd="18dp"
         android:background="#00FFFFFF"
         android:contentDescription="@string/imgbtnSignificado"
+        android:onClick="abrirSignificado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
@@ -52,7 +54,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.595"
         app:srcCompat="@drawable/significado"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
 
     <ImageButton
         android:id="@+id/imgbtnHome"
@@ -60,28 +62,14 @@
         android:layout_height="wrap_content"
         android:background="#00FFFFFF"
         android:contentDescription="@string/imgbtnHome"
+        android:onClick="abrirHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.962"
+        app:layout_constraintVertical_bias="0.953"
         app:srcCompat="@drawable/home"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imgbtnVoltar"
-        android:layout_width="76dp"
-        android:layout_height="69dp"
-        android:background="#00FFFFFF"
-        android:contentDescription="@string/imgbtnVoltar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
-        app:srcCompat="@drawable/seta"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,UsingOnClickInXml" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

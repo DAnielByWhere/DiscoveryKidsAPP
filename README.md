@@ -8,10 +8,12 @@ Recomeço do projeto por irresponsabilidade da minha parte, e teste da ScrollVie
 
 Versão First Page:
 Estruturação da MainActivity (arquivo .XML). Porém, a ScrollView não funcionava da forma que eu necessitava, logo abandonei a ideia.
+
 Estruturei uma nova versão da pagina inicial.
 
 V2.0.:
-Montagem praticamente inteira do projeto>
+Montagem praticamente inteira do projeto.
+
 Estruturação das Activity's (todas menos a MainActivity).
 
 V2.1.:

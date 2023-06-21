@@ -4,82 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradiente_background"
+    android:background="@drawable/background"
     android:scrollbars="vertical">
 
-    <ImageView
-        android:id="@+id/DicoveryLogo"
-        android:layout_width="215dp"
-        android:layout_height="240dp"
-        android:contentDescription="@string/DicoveryLogo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.403"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.513"
-        app:srcCompat="@drawable/logo"
-        tools:ignore="ImageContrastCheck" />
-
-    <ImageView
-        android:id="@+id/RecycleLogo"
-        android:layout_width="110dp"
-        android:layout_height="117dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="51dp"
-        android:contentDescription="@string/RecycleLogo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.787"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.719"
-        app:srcCompat="@drawable/logo2" />
-
     <Button
-        android:id="@+id/btnComeço"
+        android:id="@+id/btnEntrar"
         android:layout_width="138dp"
         android:layout_height="54dp"
         android:layout_marginStart="165dp"
         android:layout_marginTop="186dp"
         android:layout_marginEnd="158dp"
-        android:backgroundTint="#23CE6B"
-        android:onClick="abrirSecond"
+        android:backgroundTint="#4757FF"
+        android:onClick="enviaNome"
         android:text="@string/btnComeço"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58"
+        tools:ignore="TextContrastCheck,UsingOnClickInXml" />
+
+    <EditText
+        android:id="@+id/edtxtNome"
+        android:layout_width="273dp"
+        android:layout_height="70dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="@string/edtxtNome"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.796"
-        tools:ignore="TextContrastCheck,UsingOnClickInXml" />
+        tools:ignore="LabelFor,TextContrastCheck" />
 
     <ImageView
-        android:id="@+id/imgWelcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:rotationY="-180"
-        android:contentDescription="@string/imgDoki"
+        android:id="@+id/imageView"
+        android:layout_width="82dp"
+        android:layout_height="86dp"
+        android:contentDescription="@string/DicoveryLogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.335"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271"
-        app:srcCompat="@drawable/dokipersona" />
-
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/imgWelcome"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/welcome" />
+        app:layout_constraintVertical_bias="0.131"
+        app:srcCompat="@drawable/icon"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

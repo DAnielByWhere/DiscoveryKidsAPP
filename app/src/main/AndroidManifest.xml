@@ -21,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity" android:exported="false"/>
+        <activity android:name=".SignificadoActivity" android:exported="false"/>
+        <activity android:name=".RecicleActivity" android:exported="false"/>
+        <activity android:name=".MsMakerActivity" android:exported="false"/>
+        <activity android:name=".PeixonautaActivity" android:exported="false"/>
+        <activity android:name=".DokiActivity" android:exported="false"/>
+
     </application>
 
 </manifest>

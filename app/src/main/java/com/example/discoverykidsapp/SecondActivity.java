@@ -17,8 +17,7 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent= getIntent();
         String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView txtNome = new TextView(this);
-        txtNome.setTextSize(40);
+        TextView txtNome = findViewById(R.id.txtNome);
         txtNome.setText(message);
     }
 

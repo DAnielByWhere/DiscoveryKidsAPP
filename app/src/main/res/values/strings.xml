@@ -1,17 +1,75 @@
 <resources>
     <string name="app_name">DiscoveryKidsAPP</string>
     <string name="DicoveryLogo"/>
+    <string name="RecycleLogo"/>
+    <string name="imgRecicle"/>
+    <string name="imgMsMaker"/>
+    <string name="imgPeixonauata"/>
+    <string name="imgDoki"/>
+    <string name="imgSignificado"/>
+    <string name="imgDokiSig"/>
+    <string name="imgPoney"/>
+    <string name="imgWubbzy"/>
+    <string name="imgPeixe"/>
+    <string name="imgWelcome"/>
+    <string name="imgPeixeSig"/>
 
-    <string name="info1">
-Você sabia que os desenhos
-possuem diversos significados?
+    <string name="txtInfoCont">Nossos conteudos:</string>
+    <string name="txtInfoReci1">
+Os desenhos possuem diversos significados, como está descrito na área “Significados por trás”. Porém, aqui iremos falar sobre os que falam de reciclagem e a preservação do meio ambiente.
+    </string>
+    <string name="txtInfoReci2">
+Os desenhos que você vê abaixo tratam de assuntos como reciclagem e meio ambiente como tema principal:
+    </string>
+    <string name="txtSelecione">Selecione um</string>
 
-Alguns até ensinam como reciclar, como o Mister Maker.
 
-Clique em "Saiba mais" e descubra!
+    <string name="SigTitle">Por Trás dos Desenhos...</string>
+    <string name="txtInfoSig1">
+Todos os desenhos tem uma intenção, um objetivo, um algo a ser passado, uma mensagem, direcionada às nossas crianças. Pode não parecer, mas todos eles têm.
+Os desenhos que nós tanto amamos, que tanto assistimos, direcionados a todas as idades, possuem um significado por trás.
+    </string>
+    <string name="txtInfoSig2">
+Geralmente, os desenhos passam uma mensagem de aprendizado para aquele que o assistir. Seja ela sobre respeito, compaixão, pedir ajuda, sempre tem um significado. Normalmente são coisas que as crianças não sabem ou não compreendem, então, eles usam essa certa coisa como tema, simplificam, animam e boom, um episódio novo é lançado, e junto dele, uma mensagem é passada. Mas não são apenas desenhos de Redes de Televisões que passam mensagens, grandes produções também fazem isso.
+    </string>
+    <string name="txtInfoSig3">
+Grandes filmes como de My Little Pony, Doki, e muitos outros passam mensagens proporcionais a sua produção. O resultado é o que nós vemos nos cinemas.
     </string>
 
-    <string name="btnInfo1">Saiba Mais</string>
-    <string name="btnHome"/>
-    <string name="HomeButton"/>
+    <string name="txtTempMister">3 Temporadas</string>
+    <string name="txtMisterTitle">
+Mister
+Maker
+    </string>
+    <string name="txtInfoMister">
+Mister Maker é um programa infantil que apresenta Mister Maker, o apresentador do programa.
+
+Mister Maker junto de seus amigos, ensina para as crianças diversas coisas, porém, o foco era mostrar como reciclar de forma inovadora e divertida, coisas como potes, tampas, e muitos outros objetos, transformando-as em brinquedos e diversas coisas divertidas para o entretenimento dos pequenos.
+    </string>
+
+    <string name="txtPeixeTitle">Peixonauta</string>
+    <string name="txtTempPeixe">2 Temporadas</string>
+    <string name="txtInfoPeixe">
+Peixonauta é um desenho que nos apresenta Peixonauta, um peixe com um traje tecnológico parecido com o de um astronauta que lhe permite voar; e seus dois amigos, Marina e Zico, o Macaco.
+
+O desenho se passa no Parque das Árvores Felizes, e mostra os Agentes da O.S.T.R.A., trabalhando para ajudar os animais que ali habitam e cuidando do meio ambiente, e um dos passos principais para se cuidar do meio ambiente é reciclagem. O desenho diz e cita diversas vezes a importância da  reciclagem, apelando para o emocional das crianças, mostrando animais tristes e prejudicados pelo lixo.
+    </string>
+
+    <string name="txtDokiTitle">Doki</string>
+    <string name="txtTempDoki">3 Temporadas</string>
+    <string name="txtInfoDoki">
+Doki é um desenho que apresenta Doki e seu grupo passando por diversas aventuras.
+
+O desenho, mesmo que mostre diversos assuntos, ainda sim fala bastante sobre preservação do meio ambiente e reciclagem, para manter o próprio meio ambiente inteiro, e restaurá-lo. Incentivando de diversas formas nossos pequenos a sempre respeitar a natureza e descartar seu lixo da forma correta, ensinando até o que cada cor de lixo corresponde.
+    </string>
+
+
+
+    <string name="imgbtnRecicle"/>
+    <string name="imgbtnSignificado"/>
+    <string name="imgbtnHome"/>
+    <string name="imgbtnVoltar"/>
+
+    <string name="btnComeço">Entrar</string>
+    <string name="btnSair">Sair</string>
 </resources>

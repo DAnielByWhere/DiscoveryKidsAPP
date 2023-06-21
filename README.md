@@ -1,7 +1,7 @@
 # DiscoveryKidsAPP
 Membros: Daniel Biondi
 
-(Diversas alterações foram feitas desde a ideia inicial. Motivo: Coloquei mais coisas d que sabia e conseguia fazer)
+(Diversas alterações foram feitas desde a ideia inicial. Motivo: Coloquei mais coisas do que sabia e conseguia fazer)
 
 Versão ScrollView:
 Recomeço do projeto por irresponsabilidade da minha parte, e teste da ScrollView (não funcionava da forma esperada, então abandonei a ideia na proxima versão).

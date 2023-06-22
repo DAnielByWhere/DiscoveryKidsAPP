@@ -17,6 +17,7 @@
         android:backgroundTint="#4757FF"
         android:onClick="enviaNome"
         android:text="@string/btnComeço"
+        android:textColor="#FBFBFB"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

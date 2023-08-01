@@ -1,5 +1,5 @@
 # DiscoveryKidsAPP
-Membros: Daniel Biondi
+Membros: Daniel Biondi e Ana Beatriz
 
 **(Diversas alterações foram feitas desde a ideia inicial. Motivo: Coloquei mais coisas do que sabia e conseguia fazer)**
 

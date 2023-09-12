@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void enviaNome(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
-        EditText edtxtNome = (EditText) findViewById(R.id.edtxtNome);
+        EditText edtxtNome = findViewById(R.id.edtxtNome);
         String message = edtxtNome.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);

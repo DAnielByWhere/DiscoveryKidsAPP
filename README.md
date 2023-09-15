@@ -37,3 +37,6 @@ V3.1.1., V3.1.2., V3.1.3., V3.1.4., V3.1.5., V3.1.6., V3.1.7., V3.1.8., V3.1.9.:
 - V3.1.9.: Alteração do texto do botão "Entrar" na MainActivity.
 - 
 ![diagrama de classe](https://github.com/DAnielByWhere/DiscoveryKidsAPP/assets/128055760/3867b641-0cfc-4bc8-8c86-ede33eaba032)
+
+Link do video do aplicativo:
+https://youtu.be/_TWV6FBiTsc?si=5__DwHdC3GncC7df

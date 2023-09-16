@@ -62,7 +62,12 @@
   V3.1.9.: Alteração do texto do botão "Entrar" na MainActivity.
 </details>
 
+<details>
+<summary><h1>Diagrama de Classes</h1></summary>
+  
 ![diagrama de classe](https://github.com/DAnielByWhere/DiscoveryKidsAPP/assets/128055760/3867b641-0cfc-4bc8-8c86-ede33eaba032)
+
+</details>
 
 Link do video do aplicativo:
 https://youtu.be/_TWV6FBiTsc?si=5__DwHdC3GncC7df<br>
